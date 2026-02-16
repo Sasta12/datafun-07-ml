@@ -1,3 +1,53 @@
+# Quickstart: How to Set Up and Run the EDA Notebook
+
+Follow these steps to set up your environment, obtain the Jupyter notebook, and run your EDA analysis:
+
+1. **Clone the Repository**
+    ```sh
+    git clone <repo-url>
+    cd datafun-06-eda
+    ```
+
+2. **Create and Activate a Virtual Environment**
+    - On macOS/Linux:
+      ```sh
+      python3 -m venv .venv
+      source .venv/bin/activate
+      ```
+    - On Windows:
+      ```sh
+      py -m venv .venv
+      .venv\Scripts\activate
+      ```
+
+3. **Install Required Packages**
+    ```sh
+    python3 -m pip install jupyterlab pandas pyarrow matplotlib seaborn ipykernel
+    ```
+
+4. **Open JupyterLab or Jupyter Notebook**
+    ```sh
+    jupyter lab
+    # or
+    jupyter notebook
+    ```
+
+5. **Open and Run the Notebook**
+    - Open your notebook file (e.g., `Sasta12_eda.ipynb`).
+    - Run each cell in order. The notebook uses a built-in seaborn dataset (`tips`), so no external data file is needed.
+    - To use a different dataset, change:
+      ```python
+      df = sns.load_dataset('tips')
+      ```
+      to another dataset name, like `'iris'` or `'penguins'`.
+
+6. **Save and Commit Your Work**
+    ```sh
+    git add .
+    git commit -m "Run EDA notebook with seaborn dataset"
+    git push
+    ```
+
 # Specification for Project 6 EDA Notebook
 
 ## Overview
