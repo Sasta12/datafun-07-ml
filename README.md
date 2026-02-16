@@ -44,11 +44,11 @@ in a clear and engaging manner.
 ## Explore Datasets
 
 Choose a dataset for analysis.
-You will want a known, clean dataset. 
+You will want a known, clean dataset.
 Cleaning data can run 60-80% of the project (or more) - you don't need to
 demonstrate cleaning skills for this project.  
 The recommended approach is to select one of the other pre-installed datasets in Seaborn.
-You can view a list of the Seaborn datasets in the first link below. 
+You can view a list of the Seaborn datasets in the first link below.
 The additional links offer a range of options.
 
 - [List of Seaborn Datasets Installed](https://github.com/mwaskom/seaborn-data)
@@ -57,14 +57,14 @@ The additional links offer a range of options.
 - [Data.gov](https://www.data.gov/)
 - [Google Dataset Search](https://datasetsearch.research.google.com/)
 
-You may use your own data if you have permission and there is no confidential information included. 
+You may use your own data if you have permission and there is no confidential information included.
 Be careful with your data selection and ensure you have rights to use the content.
 
 ## Requirements
 
 ### 1. Create and Manage Project Virtual Environment
 
-This project uses external packages, which are not included in the Python Standard Library - we must install them. 
+This project uses external packages, which are not included in the Python Standard Library - we must install them.
 To keep our project separate from all other Python projects,
 we will create and manage a local project virtual environment.
 We'll install our packages into the local project virtual environment.
@@ -84,8 +84,8 @@ Then create, open, and start a new notebook in your root project repository fold
 ### 3. Import Dependencies (At the Top, After the Introduction)
 
 Add a Python cell next with the import statements for the libraries you will use in the project.
-Follow conventional package import organization and alias. 
-Import each package just once near the top of the file. 
+Follow conventional package import organization and alias.
+Import each package just once near the top of the file.
 Be sure you have INSTALLED any external packages (outside the Python Standard Library) into your active project virtual environment first.
 
 Jupyter Notebook / Python cell example:
@@ -95,14 +95,14 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 ```
-Execute the cell to ensure everything works. 
+Execute the cell to ensure everything works.
 If you get errors on one of the statements above, the most common issue is that package has not been installed into the active project virtual environment.
-When you find you need a new package, first install it into the active project virtual environment and then import it near the top of your Python or Notebook file. 
+When you find you need a new package, first install it into the active project virtual environment and then import it near the top of your Python or Notebook file.
 
 
 ### 5.  Exploratory Data Analysis
 
-Perform a unique exploratory data analysis project using the tools and skills covered previously. 
+Perform a unique exploratory data analysis project using the tools and skills covered previously.
 
 #### Step 1. Data Acquisition
 
@@ -247,4 +247,3 @@ See rubric for additional information.
 - See [MARKDOWN.md](https://github.com/denisecase/datafun-04-spec/MARKDOWN.md) for Markdown syntax and recommendations.
 - See [Plotting graph For IRIS Dataset Using Seaborn And Matplotlib](https://www.tutorialspoint.com/plotting-graph-for-iris-dataset-using-seaborn-and-matplotlib)
 - See [Seaborn Tutorial](https://seaborn.pydata.org/tutorial.html)
-
