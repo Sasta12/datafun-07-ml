@@ -1,3 +1,43 @@
+# Predictive ML Project: Repeatable Daily Workflow
+
+## Project Setup and Workflow
+
+This section documents the repeatable daily workflow for setting up and working on this predictive ML project.
+
+### 1. Pull Latest Changes
+```
+git pull
+```
+
+### 2. Create and Activate Virtual Environment
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 3. Install Required Packages
+```
+pip install jupyterlab numpy pandas pyarrow matplotlib seaborn scipy
+```
+
+### 4. Start JupyterLab
+```
+jupyter lab
+```
+
+### 5. Edit and Run Your Notebook
+- Open or create your notebook (e.g., `yourname_eda.ipynb`).
+- Follow the project steps for EDA and ML.
+
+### 6. Save, Commit, and Push Changes
+```
+git add .
+git commit -m "Update notebook and workflow documentation"
+git push
+```
+
+---
+
 # Quickstart: How to Set Up and Run the EDA Notebook
 
 Follow these steps to set up your environment, obtain the Jupyter notebook, and run your EDA analysis:
@@ -297,3 +337,25 @@ See rubric for additional information.
 - See [MARKDOWN.md](https://github.com/denisecase/datafun-04-spec/MARKDOWN.md) for Markdown syntax and recommendations.
 - See [Plotting graph For IRIS Dataset Using Seaborn And Matplotlib](https://www.tutorialspoint.com/plotting-graph-for-iris-dataset-using-seaborn-and-matplotlib)
 - See [Seaborn Tutorial](https://seaborn.pydata.org/tutorial.html)
+
+## Commands and Process Used
+
+Below are the actual commands and process followed for this project:
+
+```
+git pull
+python3 -m venv .venv
+source .venv/bin/activate
+pip install jupyterlab numpy pandas pyarrow matplotlib seaborn scipy
+jupyter lab
+# (edit and run notebook)
+git add .
+git commit -m "Initial predictive ML project setup and workflow documentation"
+git push
+```
+
+Notes:
+- The virtual environment is created and activated before installing packages.
+- All required packages are installed in the local environment.
+- JupyterLab is used for interactive development.
+- All changes are tracked and pushed to GitHub regularly.
